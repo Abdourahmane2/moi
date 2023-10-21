@@ -65,7 +65,7 @@ max-width: 100%; /* Pour rendre l'image responsive */
     }
     #profile{
         position: relative;
-        top : 200px
+        top : 150px
     }
     body{
         background: url('image2.jpg')  ;
