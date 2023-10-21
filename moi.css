@@ -1,0 +1,90 @@
+body{
+    background: url('image2.jpg')  ;
+    height: 100vh;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+
+.container_profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+   
+}
+#footer{
+    width: 1518px ;
+}
+
+.text {
+    text-align: center;
+    padding: 40px;
+    color: white;
+    font-size: x-large;
+}
+
+img {
+margin-left: 30px; /* Espace entre le texte et l'image */
+max-width: 100%; /* Pour rendre l'image responsive */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 50%; /* Arrondit les bords de l'image pour créer une forme circulaire */
+  width: 400px; /* Ajustez la largeur selon vos besoins */
+  height: 400px; /* Ajustez la hauteur selon vos besoins */
+  object-fit: cover; /* Évite que l'image ne soit déformée */
+  border: 2px solid #fff; /* Ajoute une bordure blanche */
+  margin: 0 auto; /* Centre l'image horizontalement */
+    
+} 
+
+.btn1{
+    border: 3px;
+    border-radius: 25px;
+    color: black;
+    background: #f8f5f5 ;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  text-decoration: none;
+}
+.btn2{
+    border: rgb(53, 53, 53) 0.1rem solid;
+    background-color: black;
+    color: white ; 
+    padding: 5px;
+    border: 7px;
+    width: 150px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+@media  (max-width:991px){
+    #offcanvasNavbar{
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+    #profile{
+        position: relative;
+        top : 200px
+    }
+    body{
+        background: url('image2.jpg')  ;
+        height: 100vh;
+  
+    } 
+    .container_profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    #footer{
+        position: relative; 
+        top: 350px;
+        width: 100%;
+    }
+    
+} 
